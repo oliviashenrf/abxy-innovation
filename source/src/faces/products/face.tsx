@@ -77,7 +77,11 @@ export default function ProductsFace() {
                 />
 
                 <div className="pt-4 border-t border-color-5">
-                  <button className="group/btn inline-flex items-center gap-2 text-sm font-mono uppercase tracking-wide text-color-2 hover:gap-4 transition-all">
+                  <button
+                    type="button"
+                    onClick={() => document.querySelector('[data-face-id="contact"]')?.scrollIntoView({ behavior: "smooth", block: "start" })}
+                    className="group/btn inline-flex items-center gap-2 text-sm font-mono uppercase tracking-wide text-color-2 hover:gap-4 transition-all"
+                  >
                     Learn More
                     <Icon name="arrow-right" size={16} className="group-hover/btn:translate-x-1 transition-transform" />
                   </button>
