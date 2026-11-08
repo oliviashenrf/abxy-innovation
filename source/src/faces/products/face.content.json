@@ -1,0 +1,72 @@
+{
+  "blocks": {
+    "sectionLabel": {
+      "type": "text",
+      "content": "MVP Services"
+    },
+    "sectionTitle": {
+      "type": "text",
+      "content": "Build & Test Your MVP"
+    },
+    "sectionDesc": {
+      "type": "text",
+      "content": "We help startups rapidly build and validate their Minimum Viable Products. From concept to launch, we guide you through every step of bringing your vision to life."
+    },
+    "products": {
+      "type": "table",
+      "columns": [
+        {
+          "key": "name",
+          "title": "Product Name",
+          "type": "text"
+        },
+        {
+          "key": "tagline",
+          "title": "Tagline",
+          "type": "text"
+        },
+        {
+          "key": "description",
+          "title": "Description",
+          "type": "text"
+        },
+        {
+          "key": "status",
+          "title": "Status",
+          "type": "text"
+        },
+        {
+          "key": "icon",
+          "title": "Icon",
+          "type": "icon"
+        }
+      ],
+      "rows": [
+        {
+          "id": "p1",
+          "name": "Rapid Prototyping",
+          "tagline": "From Idea to Interactive Prototype",
+          "description": "Turn your concept into a working prototype in weeks, not months. We use agile methodologies and modern tech stacks to build functional MVPs that help you test core assumptions and gather real user feedback.",
+          "status": "4-6 Weeks",
+          "icon": "zap"
+        },
+        {
+          "id": "p2",
+          "name": "User Testing & Validation",
+          "tagline": "Data-Driven Product Insights",
+          "description": "Launch smart with comprehensive user testing programs. We help you recruit target users, design experiments, and analyze feedback to validate product-market fit before scaling.",
+          "status": "2-4 Weeks",
+          "icon": "users"
+        },
+        {
+          "id": "p3",
+          "name": "Tech Stack Advisory",
+          "tagline": "Build on the Right Foundation",
+          "description": "Choose the optimal technology stack for your startup's unique needs. We provide expert guidance on architecture, tools, and frameworks that balance speed to market with long-term scalability.",
+          "status": "1-2 Weeks",
+          "icon": "code"
+        }
+      ]
+    }
+  }
+}

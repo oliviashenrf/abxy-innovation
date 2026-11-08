@@ -1,0 +1,8 @@
+{
+  "controls": {
+    "showGrid": {
+      "type": "switch",
+      "value": true
+    }
+  }
+}

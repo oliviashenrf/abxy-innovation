@@ -1,0 +1,40 @@
+{
+  "blocks": {
+    "sectionLabel": {
+      "type": "text",
+      "content": "Get in Touch"
+    },
+    "sectionTitle": {
+      "type": "text",
+      "content": "Let's Build Together"
+    },
+    "sectionDesc": {
+      "type": "text",
+      "content": "Have questions or interested in collaboration? Fill out the form below and we'll get back to you shortly."
+    },
+    "namePlaceholder": {
+      "type": "text",
+      "content": "Your Name"
+    },
+    "emailPlaceholder": {
+      "type": "text",
+      "content": "Your Email"
+    },
+    "messagePlaceholder": {
+      "type": "text",
+      "content": "Tell us about your project..."
+    },
+    "submitButton": {
+      "type": "text",
+      "content": "Send Message"
+    },
+    "copyright": {
+      "type": "text",
+      "content": "© 2026 ABXY Innovation. All rights reserved."
+    },
+    "successMessage": {
+      "type": "text",
+      "content": "Message sent successfully! We'll get back to you soon."
+    }
+  }
+}

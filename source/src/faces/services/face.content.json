@@ -1,0 +1,71 @@
+{
+  "blocks": {
+    "sectionTitle": {
+      "type": "text",
+      "content": "Holistic Innovation"
+    },
+    "sectionDesc": {
+      "type": "text",
+      "content": "We don't just advise; we build. Our multidisciplinary approach bridges the gap between ambitious vision and execution reality."
+    },
+    "coreLabel": {
+      "type": "text",
+      "content": "Core Competencies"
+    },
+    "services": {
+      "type": "table",
+      "columns": [
+        {
+          "key": "title",
+          "title": "Title",
+          "type": "text"
+        },
+        {
+          "key": "description",
+          "title": "Description",
+          "type": "text"
+        },
+        {
+          "key": "icon",
+          "title": "Icon",
+          "type": "icon"
+        },
+        {
+          "key": "tags",
+          "title": "Tags (comma separated)",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "s4",
+          "title": "Product Design",
+          "description": "Crafting world-class digital and physical experiences that users love.",
+          "icon": "pen-tool",
+          "tags": "UX/UI, Brand Identity, Prototyping"
+        },
+        {
+          "id": "s1",
+          "title": "Strategic Advisory",
+          "description": "Market analysis and business model design to position your venture for long-term dominance.",
+          "icon": "compass",
+          "tags": "Market Analysis, Business Model, Positioning"
+        },
+        {
+          "id": "s3",
+          "title": "GTM & Growth",
+          "description": "Data-driven customer segmentation and channel strategies to accelerate adoption.",
+          "icon": "trending-up",
+          "tags": "Segmentation, Channel Strategy, Launch"
+        },
+        {
+          "id": "s2",
+          "title": "Financial Engineering",
+          "description": "Robust financial modeling and capital-raising support to fuel your growth engine.",
+          "icon": "bar-chart-3",
+          "tags": "Fundraising, Modeling, KPI Dashboards"
+        }
+      ]
+    }
+  }
+}

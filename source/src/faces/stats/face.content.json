@@ -1,0 +1,48 @@
+{
+  "blocks": {
+    "sectionLabel": {
+      "type": "text",
+      "content": "Our Journey"
+    },
+    "stats": {
+      "type": "table",
+      "columns": [
+        {
+          "key": "value",
+          "title": "Value",
+          "type": "text"
+        },
+        {
+          "key": "label",
+          "title": "Label",
+          "type": "text"
+        },
+        {
+          "key": "icon",
+          "title": "Icon",
+          "type": "icon"
+        }
+      ],
+      "rows": [
+        {
+          "id": "1",
+          "value": "Since 2024",
+          "label": "Journey so far",
+          "icon": "rocket"
+        },
+        {
+          "id": "2",
+          "value": "10+",
+          "label": "Projects Delivered",
+          "icon": "briefcase"
+        },
+        {
+          "id": "3",
+          "value": "5+",
+          "label": "Active Clients",
+          "icon": "users"
+        }
+      ]
+    }
+  }
+}

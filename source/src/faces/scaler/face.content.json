@@ -1,0 +1,80 @@
+{
+  "blocks": {
+    "title": {
+      "type": "text",
+      "content": "Interactive Growth Model"
+    },
+    "heading": {
+      "type": "text",
+      "content": "Scale with Confidence."
+    },
+    "densityLabel": {
+      "type": "text",
+      "content": "Network Density:"
+    },
+    "riskLabel": {
+      "type": "text",
+      "content": "Risk Factor"
+    },
+    "velocityLabel": {
+      "type": "text",
+      "content": "Velocity"
+    },
+    "teamLabel": {
+      "type": "text",
+      "content": "Team Size"
+    },
+    "nodesLabel": {
+      "type": "text",
+      "content": "Nodes"
+    },
+    "stageLabel": {
+      "type": "text",
+      "content": "Growth Stage"
+    },
+    "focusLabel": {
+      "type": "text",
+      "content": "Current Focus"
+    },
+    "ideaLabel": {
+      "type": "text",
+      "content": "Idea"
+    },
+    "ipoLabel": {
+      "type": "text",
+      "content": "IPO"
+    },
+    "stage1": {
+      "type": "text",
+      "content": "MVP & Validation"
+    },
+    "desc1": {
+      "type": "text",
+      "content": "Focus on product-market fit. We help you iterate rapidly and gather crucial user feedback to de-risk your core assumptions."
+    },
+    "stage2": {
+      "type": "text",
+      "content": "Seed Stage"
+    },
+    "desc2": {
+      "type": "text",
+      "content": "Building the foundation. We assist with initial fundraising, core team hiring, and establishing key operational metrics."
+    },
+    "stage3": {
+      "type": "text",
+      "content": "Series A Expansion"
+    },
+    "desc3": {
+      "type": "text",
+      "content": "Accelerating growth. Channel strategy optimization, scalable infrastructure, and market penetration become the priority."
+    },
+    "stage4": {
+      "type": "text",
+      "content": "Series B & Beyond"
+    },
+    "desc4": {
+      "type": "text",
+      "content": "Market dominance. We engineer sophisticated financial models and global expansion strategies for sustainable large-scale operations."
+    }
+  }
+}

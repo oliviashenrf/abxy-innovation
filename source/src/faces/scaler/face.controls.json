@@ -1,0 +1,11 @@
+{
+  "controls": {
+    "animationSpeed": {
+      "type": "slider",
+      "min": 1,
+      "max": 50,
+      "step": 1,
+      "value": 10
+    }
+  }
+}

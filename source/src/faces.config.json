@@ -1,0 +1,28 @@
+{
+  "faces": [
+    {
+      "id": "hero",
+      "name": "Hero"
+    },
+    {
+      "id": "stats",
+      "name": "Impact Stats"
+    },
+    {
+      "id": "services",
+      "name": "Expertise"
+    },
+    {
+      "id": "products",
+      "name": "MVP Services"
+    },
+    {
+      "id": "scaler",
+      "name": "Growth Model"
+    },
+    {
+      "id": "contact",
+      "name": "Connect"
+    }
+  ]
+}

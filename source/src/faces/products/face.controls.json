@@ -1,0 +1,9 @@
+{
+  "controls": {
+    "layout": {
+      "type": "selector",
+      "options": ["Grid", "List"],
+      "value": "Grid"
+    }
+  }
+}
