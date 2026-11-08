@@ -21,17 +21,17 @@ export default function HeroFace() {
           initial={{ opacity: 0, y: -20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
           transition={{ duration: 0.6 }}
-          className={`flex justify-between items-center px-4 @4xl:px-8 py-4 border-b border-color-5 ${showGrid ? "bg-color-7/10" : ""}`}
+          className={`flex justify-between items-center gap-6 px-4 @4xl:px-8 py-4 border-b border-color-5 ${showGrid ? "bg-color-7/10" : ""}`}
         >
           <div className="flex items-center">
             <img 
               src={blocks.brandLogo.src} 
               alt="ABXY Innovation Logo - AI and Technology Solutions" 
-              className="h-12 @2xl:h-16 w-auto"
+              className="h-8 @2xl:h-9 w-auto"
               loading="eager"
             />
           </div>
-          <TextContent content={blocks.tagline.content} className="font-mono text-xs tracking-widest uppercase text-color-4 hidden @sm:block" />
+          <TextContent content={blocks.tagline.content} className="font-mono text-xs tracking-widest uppercase text-color-4 hidden @xl:block" />
         </motion.div>
 
         {/* Main Content */}
