@@ -14,7 +14,8 @@
     },
     {
       "id": "casestudies",
-      "name": "Case Studies"
+      "name": "Case Studies",
+      "hidden": true
     },
     {
       "id": "products",
