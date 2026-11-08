@@ -21,17 +21,11 @@ export default function ServicesFace() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.6 }}
-          className="p-8 @4xl:p-16 border-b border-color-5 grid grid-cols-1 @4xl:grid-cols-12 gap-8 items-end"
+          className="p-8 @4xl:p-16 border-b border-color-5"
         >
-          <div className="@4xl:col-span-8">
-            <TextContent content={blocks.sectionTitle.content} className="font-heading text-4xl @2xl:text-5xl font-bold mb-6" />
-            <TextContent content={blocks.sectionDesc.content} className="text-color-4 text-lg max-w-2xl" />
-          </div>
-          <div className="@4xl:col-span-4 flex justify-start @4xl:justify-end">
-             <div className="font-mono text-xs uppercase tracking-widest py-2 px-4 border border-color-5 rounded-full">
-               <TextContent content={blocks.coreLabel.content} />
-             </div>
-          </div>
+          <TextContent content={blocks.coreLabel.content} className="font-mono text-sm tracking-widest uppercase text-color-3 mb-4" />
+          <TextContent content={blocks.sectionTitle.content} className="font-heading text-4xl @2xl:text-5xl font-bold mb-6" />
+          <TextContent content={blocks.sectionDesc.content} className="text-color-4 text-lg max-w-2xl" />
         </motion.div>
 
         {/* Services Grid */}
@@ -47,13 +41,12 @@ export default function ServicesFace() {
                 ${index % 2 === 0 ? "@2xl:border-r" : ""}
                 ${index < 2 ? "@2xl:border-b" : ""}
                 hover:bg-gradient-to-br hover:from-color-7/30 hover:to-color-7/10
-                hover:shadow-lg hover:scale-[1.02]
-                cursor-pointer
+                hover:shadow-lg
               `}
               onMouseEnter={() => setActiveService(index)}
               onMouseLeave={() => setActiveService(null)}
             >
-              <div className="flex justify-between items-start mb-12">
+              <div className="flex justify-between items-start mb-6">
                 <div className="p-3 bg-color-6 rounded-lg group-hover:bg-color-2 group-hover:text-white transition-all duration-300 group-hover:scale-110 group-hover:rotate-3">
                   <Icon name={service.icon} size={24} />
                 </div>

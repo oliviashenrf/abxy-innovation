@@ -31,7 +31,35 @@ export default function HeroFace() {
               loading="eager"
             />
           </div>
-          <TextContent content={blocks.tagline.content} className="font-mono text-xs tracking-widest uppercase text-color-4 hidden @xl:block" />
+          <nav aria-label="Primary" className="flex items-center gap-6">
+            {[
+              { id: "services", label: "Services" },
+              { id: "products", label: "MVP" },
+              { id: "scaler", label: "Growth Model" },
+            ].map((item) => (
+              <a
+                key={item.id}
+                href={`#${item.id}`}
+                onClick={(e) => {
+                  const t = document.querySelector(`[data-face-id="${item.id}"]`);
+                  if (t) { e.preventDefault(); t.scrollIntoView({ behavior: "smooth", block: "start" }); }
+                }}
+                className="hidden @2xl:inline font-mono text-xs tracking-widest uppercase text-color-4 hover:text-color-2 transition-colors"
+              >
+                {item.label}
+              </a>
+            ))}
+            <a
+              href="#contact"
+              onClick={(e) => {
+                const t = document.querySelector('[data-face-id="contact"]');
+                if (t) { e.preventDefault(); t.scrollIntoView({ behavior: "smooth", block: "start" }); }
+              }}
+              className="font-mono text-xs tracking-widest uppercase px-4 py-2 rounded-lg border border-color-2 text-color-2 hover:bg-color-2 hover:text-white transition-colors"
+            >
+              Contact
+            </a>
+          </nav>
         </motion.div>
 
         {/* Main Content */}

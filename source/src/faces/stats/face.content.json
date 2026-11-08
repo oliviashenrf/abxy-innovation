@@ -2,7 +2,7 @@
   "blocks": {
     "sectionLabel": {
       "type": "text",
-      "content": "Our Journey"
+      "content": "By the Numbers"
     },
     "stats": {
       "type": "table",
@@ -26,8 +26,8 @@
       "rows": [
         {
           "id": "1",
-          "value": "Since 2024",
-          "label": "Journey so far",
+          "value": "2024",
+          "label": "Founded",
           "icon": "rocket"
         },
         {
@@ -39,7 +39,7 @@
         {
           "id": "3",
           "value": "5+",
-          "label": "Active Clients",
+          "label": "Clients Served",
           "icon": "users"
         }
       ]

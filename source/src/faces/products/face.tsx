@@ -39,7 +39,7 @@ export default function ProductsFace() {
         </motion.div>
 
         {/* Products */}
-        <div className={`${isGrid ? "grid grid-cols-1 @2xl:grid-cols-2 @5xl:grid-cols-3 gap-8" : "space-y-6 max-w-4xl mx-auto"}`}>
+        <div className={`${isGrid ? "grid grid-cols-1 @2xl:grid-cols-2 @5xl:grid-cols-3 gap-8 max-w-6xl mx-auto" : "space-y-6 max-w-4xl mx-auto"}`}>
           {blocks.products.rows.map((product, index) => (
             <motion.div
               initial={{ opacity: 0, y: 40 }}

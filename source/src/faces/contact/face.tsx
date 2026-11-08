@@ -59,7 +59,7 @@ export default function ContactFace() {
 
   return (
     <div className="bg-color-1 text-white w-full" ref={ref}>
-      <FaceContentContainer className="py-20 @4xl:py-32 px-4 @4xl:px-8">
+      <FaceContentContainer className="py-20 @4xl:py-32 px-4 @4xl:px-8 max-w-6xl">
         <div className="grid grid-cols-1 @4xl:grid-cols-12 gap-16">
           
           {/* Left Side - Header */}
@@ -173,6 +173,11 @@ export default function ContactFace() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-32 pt-8 border-t border-white/10 text-center"
         >
+          <nav aria-label="Footer" className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-4 font-mono text-xs uppercase tracking-widest">
+            <a href="mailto:shenr20wlu@gmail.com" className="text-white/70 hover:text-white transition-colors py-2">Email</a>
+            <a href="https://www.linkedin.com/in/ruofan-shen" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors py-2">LinkedIn</a>
+            <a href="https://oliviashenrf.github.io/" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors py-2">Founded by Olivia Shen</a>
+          </nav>
           <TextContent 
             content={blocks.copyright.content} 
             className="text-xs text-white/40 font-mono" 

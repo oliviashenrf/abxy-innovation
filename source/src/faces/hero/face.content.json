@@ -22,11 +22,11 @@
     },
     "description": {
       "type": "text",
-      "content": "We architect cutting-edge AI solutions and intelligent systems that transform how businesses operate. Through transforming bold ideas into sustainable businesses, we empower startups at every stage of their journeys."
+      "content": "We design and build AI-powered products for startups, then help take them to market. From first prototype to pricing and growth, we turn bold ideas into sustainable businesses."
     },
     "imageCaption": {
       "type": "text",
-      "content": "<strong>ABXY</strong> / Innovative Solutions<br>Designing intelligent systems at the intersection of AI and human-centered design."
+      "content": "<strong>ABXY Innovation</strong><br>Designing intelligent systems at the intersection of AI and human-centered design."
     },
     "heroImage": {
       "type": "image",
@@ -58,7 +58,7 @@
     },
     "ctaButton": {
       "type": "text",
-      "content": "View Our Work"
+      "content": "Explore Our Services"
     }
   }
 }

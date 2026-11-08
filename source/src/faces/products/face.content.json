@@ -46,7 +46,7 @@
           "id": "p1",
           "name": "Rapid Prototyping",
           "tagline": "From Idea to Interactive Prototype",
-          "description": "Turn your concept into a working prototype in weeks, not months. We use agile methodologies and modern tech stacks to build functional MVPs that help you test core assumptions and gather real user feedback.",
+          "description": "Turn your concept into a working prototype in weeks, not months. We use agile methods and modern tech stacks to build functional MVPs that test your core assumptions with real users.",
           "status": "4-6 Weeks",
           "icon": "zap"
         },
@@ -54,7 +54,7 @@
           "id": "p2",
           "name": "User Testing & Validation",
           "tagline": "Data-Driven Product Insights",
-          "description": "Launch smart with comprehensive user testing programs. We help you recruit target users, design experiments, and analyze feedback to validate product-market fit before scaling.",
+          "description": "Launch with evidence. We help you recruit target users, design experiments, and analyze feedback to validate product-market fit before you scale.",
           "status": "2-4 Weeks",
           "icon": "users"
         },
@@ -62,7 +62,7 @@
           "id": "p3",
           "name": "Tech Stack Advisory",
           "tagline": "Build on the Right Foundation",
-          "description": "Choose the optimal technology stack for your startup's unique needs. We provide expert guidance on architecture, tools, and frameworks that balance speed to market with long-term scalability.",
+          "description": "Choose the right technology for your stage. We advise on architecture, tools, and frameworks that balance speed to market with long-term scalability.",
           "status": "1-2 Weeks",
           "icon": "code"
         }
