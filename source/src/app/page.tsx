@@ -4,6 +4,7 @@ import { faces } from "@/faces.config.json";
 import HeroFace from "@/faces/hero/face.tsx";
 import StatsFace from "@/faces/stats/face.tsx";
 import ServicesFace from "@/faces/services/face.tsx";
+import CaseStudiesFace from "@/faces/casestudies/face.tsx";
 import ProductsFace from "@/faces/products/face.tsx";
 import ScalerFace from "@/faces/scaler/face.tsx";
 import ContactFace from "@/faces/contact/face.tsx";
@@ -15,6 +16,7 @@ export const componentMap = {
   "hero": HeroFace,
   "stats": StatsFace,
   "services": ServicesFace,
+  "casestudies": CaseStudiesFace,
   "products": ProductsFace,
   "scaler": ScalerFace,
   "contact": ContactFace,

@@ -13,6 +13,10 @@
       "name": "Expertise"
     },
     {
+      "id": "casestudies",
+      "name": "Case Studies"
+    },
+    {
       "id": "products",
       "name": "MVP Services"
     },

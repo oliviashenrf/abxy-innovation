@@ -1,0 +1,81 @@
+{
+  "blocks": {
+    "sectionLabel": {
+      "type": "text",
+      "content": "Selected Work"
+    },
+    "sectionTitle": {
+      "type": "text",
+      "content": "Case Studies"
+    },
+    "sectionDesc": {
+      "type": "text",
+      "content": "A few recent engagements across marketplaces, fintech, mobility, and SaaS. Client names are withheld."
+    },
+    "cases": {
+      "type": "table",
+      "rows": [
+        {
+          "id": "c1",
+          "sector": "Food-Delivery Marketplace · San Francisco",
+          "metric": "~$10M",
+          "metricLabel": "12-month revenue forecast",
+          "title": "P&L Forecast & Scenario Model for a New Business Line",
+          "challenge": "The founders needed to know whether a new business line was worth launching, and what it would take to make it profitable.",
+          "work": [
+            "Built unit economics from 18 months of transaction data: order value, delivery fee, commission, and courier cost per delivery",
+            "Modeled customer cohorts with month-by-month retention, including competitor-promo churn and a fee outage",
+            "Built a parametric 12-month P&L with best, base, and worst cases on CAC, churn, and pricing"
+          ],
+          "outcome": "Operating income ranged from $86K to $1.15M across scenarios, which informed the go/no-go decision. Recommended onboarding, loyalty, and re-engagement plays worth an estimated $200K–$300K.",
+          "tags": "Unit Economics, Cohort Modeling, Scenario Planning"
+        },
+        {
+          "id": "c2",
+          "sector": "Home-Equity Fintech · Boston",
+          "metric": "$200M",
+          "metricLabel": "capital deployment simulated",
+          "title": "Product & Investor-Return Model for a Home Equity Investment",
+          "challenge": "Assess whether a home equity investment product was competitive for homeowners and attractive to capital partners.",
+          "work": [
+            "Built 10-year home-price scenarios (–5% to +15%) comparing effective APR against a 7% fixed-rate HELOC",
+            "Modeled investor IRR, MoM, and cash flows, including a $200M deployment in $100K tranches",
+            "Tested settlement-timing sensitivity for both homeowners and investors"
+          ],
+          "outcome": "Showed the product beats 7% high-yield bonds above 2% annual appreciation. Proposed a hybrid equity-loan structure, tiered multipliers, and a 5% minimum IRR floor.",
+          "tags": "Financial Modeling, Product Strategy, Investor Returns"
+        },
+        {
+          "id": "c3",
+          "sector": "On-Demand Mobility · Municipal Deployment",
+          "metric": "76%",
+          "metricLabel": "gross margin, top vehicle segment",
+          "title": "Weekly P&L & KPI Dashboard for a City Transit Service",
+          "challenge": "The operator needed visibility into cost, utilization, and margin by vehicle type to improve profitability and ridership.",
+          "work": [
+            "Consolidated six weeks of trip-level data into a standardized weekly P&L",
+            "Tracked rides per hour, cost and revenue per ride, and gross and contribution margin by vehicle type",
+            "Benchmarked operator vs. city cost per ride and analyzed margin trends by time of day"
+          ],
+          "outcome": "Found vans most efficient (7.07 rides/hr at $2.58/ride) and sedans highest-margin (76%). Recommended demand-based vehicle repositioning and off-peak seat promotions.",
+          "tags": "KPI Dashboard, Unit Economics, Pricing"
+        },
+        {
+          "id": "c4",
+          "sector": "Healthcare Communications SaaS",
+          "metric": "10–15%",
+          "metricLabel": "churn reduction identified",
+          "title": "Churn Diagnosis & Sales Retention Playbook",
+          "challenge": "Cancellations were rising, and the team needed to know why, and which customers were most at risk.",
+          "work": [
+            "Built a churn waterfall by cause: pricing (26%), feature gaps (26%), operations (21%), service, and bugs",
+            "Pinpointed high-churn segments by practice-management system, vertical, and product bundle",
+            "Benchmarked top competitors and ran workshops with Sales, Success, and Product"
+          ],
+          "outcome": "Identified an estimated $200K–$300K in retainable annual revenue and delivered a sales and retention playbook the go-to-market teams adopted.",
+          "tags": "Churn Analysis, Competitive Intel, GTM Playbook"
+        }
+      ]
+    }
+  }
+}

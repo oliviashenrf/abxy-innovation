@@ -34,6 +34,7 @@ export default function HeroFace() {
           <nav aria-label="Primary" className="flex items-center gap-6">
             {[
               { id: "services", label: "Services" },
+              { id: "casestudies", label: "Work" },
               { id: "products", label: "MVP" },
               { id: "scaler", label: "Growth Model" },
             ].map((item) => (
@@ -112,9 +113,9 @@ export default function HeroFace() {
             {/* CTA Button */}
             <div className="mt-8">
               <a 
-                href="#services"
+                href="#casestudies"
                 onClick={(e) => {
-                  const target = document.querySelector('[data-face-id="services"]');
+                  const target = document.querySelector('[data-face-id="casestudies"]');
                   if (target) {
                     e.preventDefault();
                     target.scrollIntoView({ behavior: "smooth", block: "start" });
