@@ -84,7 +84,14 @@ export default function HeroFace() {
             {/* CTA Button */}
             <div className="mt-8">
               <a 
-                href="#casestudies" 
+                href="#services"
+                onClick={(e) => {
+                  const target = document.querySelector('[data-face-id="services"]');
+                  if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: "smooth", block: "start" });
+                  }
+                }}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-color-2 text-white font-mono text-sm uppercase tracking-wider rounded-lg hover:bg-color-2/90 transition-all hover:gap-3 group"
               >
                 <TextContent content={blocks.ctaButton.content} />
