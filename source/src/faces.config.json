@@ -5,17 +5,8 @@
       "name": "Hero"
     },
     {
-      "id": "stats",
-      "name": "Impact Stats"
-    },
-    {
       "id": "services",
       "name": "Expertise"
-    },
-    {
-      "id": "casestudies",
-      "name": "Case Studies",
-      "hidden": true
     },
     {
       "id": "products",
