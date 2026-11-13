@@ -22,17 +22,20 @@ export default function ContactFace() {
     setSubmitStatus("idle");
 
     try {
-      // Send form data to Formspree (replace YOUR_FORM_ID with your actual Formspree form ID)
-      const response = await fetch("https://formspree.io/f/xjkvbdow", {
+      // Send form data to Web3Forms (delivers to Olivia's inbox)
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Accept: "application/json",
         },
         body: JSON.stringify({
+          access_key: "0477d1fd-0851-410d-b0b9-167291724b76",
+          subject: `New message from ABXY: ${formData.name}`,
+          from_name: "ABXY Innovation website",
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          _subject: `New Contact from ${formData.name}`,
         }),
       });
 
@@ -154,6 +157,14 @@ export default function ContactFace() {
                   <Icon name="send" size={18} className="group-hover:translate-x-1 transition-transform" />
                 )}
               </button>
+
+              {/* Error Message */}
+              {submitStatus === "error" && (
+                <div className="flex items-center gap-2 text-sm text-white bg-red-500/20 px-4 py-3 rounded-lg border border-red-300/40">
+                  <Icon name="alert-circle" size={18} />
+                  <span>Something went wrong. Please email shenr20wlu@gmail.com directly.</span>
+                </div>
+              )}
 
               {/* Success Message */}
               {submitStatus === "success" && (
